@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIO DATA</title>
+    <style>
+        input[type=text],input[type=number],input[type=email],input[type=date],select{
+            border: 1px solid grey;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <h1>My Bio Data</h1>
+<fieldset>
+<legend>Personal Information</legend>
+    <label for="firstname">First Name:</label>
+    <input type="text" placeholder="First Name" id="firstname">
+    <label for="lastname">Last Name:</label>
+    <input type="text" placeholder="Last Name" id="lastname">
+    <br>
+    <br>
+
+    Male:
+    <input type="radio" name="gender">
+    Female:
+    <input type="radio" name="gender">
+    Others:
+    <input type="radio" name="gender">
+
+    <br>
+    <br>
+
+    Date of Birth:
+    <input type="date" >
+    <br>
+    <br>
+
+    Email:
+    <input type="email" placeholder="Enter Your Email">
+    <br>
+    <br>
+
+    <label for="telephone">Phone</label>
+    <input type="tel" placeholder="+91" id="telephone" maxlength="10">
+    <br>
+    <br>
+    Height:
+    <input type="number" placeholder="Height in Feet">
+</fieldset>
+
+
+<fieldset>
+    <legend>Education</legend>
+        <label for="schoolname">School Name:</label>
+        <input type="text" placeholder="School Name" id="schoolname">
+        <br>
+        <br>
+        <label for="class" >Class:</label>
+        <input type="number" placeholder="Enter Class" id="class" min="1">
+        <br>
+        <br>
+        Stream
+    <select>
+        <option value="">Stream</option>
+        <option value="">CSE</option>
+        <option value="">CIVIL</option>
+        <option value="">ARCHITECTURE</option>
+        <option value="">NURSING</option>
+        <option value="">HOTEL MANAGEMENT</option>
+    </select>
+    <br>
+    <br>
+    Marksheet:
+    <input type="file" >
+</fieldset>
+<br>
+<br>
+    <input type="submit">
+</body>
+</html>
+
+
