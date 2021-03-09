@@ -1,0 +1,32 @@
+body{
+    background-color: #00d19a;
+    background-image: url("https://images.unsplash.com/photo-1443397496996-b312c918b54e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTE4fHxiYWNrZ3JvdW5kfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+      
+}
+html {
+    scroll-behavior: smooth;
+}  
+.image{
+  background-image: url('pp.jpg');
+  display: inline-block;
+
+} 
+@media screen and (max-width: 600px) {
+    #name {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 0%;
+      height:0px;
+      display: none;
+    }
+}
+
+#port{
+    font-weight:bold;
+    font-size: 20px;
+}
+.btn-link{
+    color: black;
+}
